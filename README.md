@@ -55,6 +55,16 @@ It utilizes PostgreSQL server as the backend store.
 * Review deal user task	(Assignments)
 <p align="center"><img src="docs/images/reviewDealUserTask3.png"></p>
 
+cd docker-compose
+
+podman-compose up -d
+
+localhost:8055 to view pgadmin and ensure database has data
+user: postgres
+pass: pass
+kogito, schemas, public, tables, select process_instances, right click, view/edit data, all rows
+You should see data in there that was submitted
+
 ## Infrastructure requirements
 
 This quickstart requires a PostgreSQL server to be available with a database, a user and credentials already created
